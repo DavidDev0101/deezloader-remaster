@@ -58,14 +58,16 @@ function loadSettings(){
 function createWindow () {
 	// Create the browser window.
 	mainWindow = new BrowserWindow({
-		width: mainWindowState.width,
-		height: mainWindowState.height,
+		// width: mainWindowState.width,
+		// height: mainWindowState.height,
 		x: mainWindowState.x,
 		y: mainWindowState.y,
 		frame: false,
 		icon: __dirname + "/icon.png"
 	});
 
+	// Maximize
+	mainWindow.maximize();
 	// TEMP
 	// mainWindow.setMenu(null);
 
