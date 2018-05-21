@@ -62,7 +62,7 @@ function createWindow () {
 		// height: mainWindowState.height,
 		x: mainWindowState.x,
 		y: mainWindowState.y,
-		frame: false,
+		frame: true,
 		icon: __dirname + "/icon.png"
 	});
 
