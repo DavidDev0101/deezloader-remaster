@@ -321,3 +321,28 @@ footer.page-footer {
 .login-card__actions>div {
   margin-left: 1rem;
 }
+
+/* Login card responsive for devices less than 409px */
+
+@media screen and (max-width: 409px) {
+  .login-card__actions>div {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 272px) {
+  .login-card__actions>#modal_login_btn_signup {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 258px) {
+  .login-card__actions {
+    display: block;
+  }
+
+  .login-card__actions>#modal_login_btn_signup {
+    margin-top: 1rem;
+  }
+}
