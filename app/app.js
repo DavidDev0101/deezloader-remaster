@@ -64,7 +64,7 @@ const defaultSettings = {
 	"playlistTrackNameTemplate": "%number% - %artist% - %title%",
 	"albumNameTemplate": "%artist% - %album%",
 	"createM3UFile": false,
-	"createArtistFolder": false,
+	"createArtistFolder": true,
 	"createAlbumFolder": false,
 	"downloadLocation": null,
 	"artworkSize": "/1400x1400.jpg",
