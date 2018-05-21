@@ -307,3 +307,17 @@ footer.page-footer {
   padding-top: 0;
   background-color: #3f51b5;
 }
+
+/* Login card */
+
+.login-card__actions {
+  display: flex;
+}
+
+.login-card__actions>#modal_login_btn_signup {
+  margin-left: 1rem;
+}
+
+.login-card__actions>div {
+  margin-left: 1rem;
+}
